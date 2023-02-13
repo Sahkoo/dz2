@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(149, 150, 92, 0.609);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  width: 375px;
+  margin: 0 auto;
+  border: 2px solid white;
+  background: #000;
+  box-shadow: 1px 1px 10px gold;
+}
+
+.info {
+  display: flex;
+  background: black;
+  height: 100px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 50%;
+}
+
+.score-table {
+  background: #0f0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  text-align: center;
+}
+
+.color {
+  height: 100px;
+  background: rgba(33, 156, 2, 0.511);
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 50px;
+}
+
+.colors {
+  display: flex;
+  margin: 50px auto;
+  flex-wrap: wrap;
+  width: 310px;
+  gap: 5px;
+
+}
+
+.guess {
+  background: gray;
+  width: 100px;
+  height: 100px;
+}
